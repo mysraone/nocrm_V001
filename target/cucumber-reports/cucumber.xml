@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="50.465">
+<testcase classname="NopCommerce  Login" name="Successful Login with valid credentials" time="18.127">
+<system-out><![CDATA[Given User launch Chrome Browser............................................passed
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............passed
+And User enters username: "admin@yourstore.com".............................passed
+And User enters Password: "admin"...........................................passed
+And Click on login..........................................................passed
+Then Page titile should be "Dashboard / nopCommerce administration".........passed
+And User click on Logout link...............................................passed
+And close chrome browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="NopCommerce  Login" name="Login Data Driven" time="15.841">
+<system-out><![CDATA[Given User launch Chrome Browser............................................passed
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............passed
+And User enters username: "admin@yourstore.com".............................passed
+And User enters Password: "admin"...........................................passed
+And Click on login..........................................................passed
+Then Page titile should be "Dashboard / nopCommerce administration".........passed
+And User click on Logout link...............................................passed
+And close chrome browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="NopCommerce  Login" name="Login Data Driven 2" time="16.255">
+<system-out><![CDATA[Given User launch Chrome Browser............................................passed
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............passed
+And User enters username: "admin@yourstore.com".............................passed
+And User enters Password: "admin"...........................................passed
+And Click on login..........................................................passed
+Then Page titile should be "Dashboard / nopCommerce administration".........passed
+And User click on Logout link...............................................passed
+And close chrome browser....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

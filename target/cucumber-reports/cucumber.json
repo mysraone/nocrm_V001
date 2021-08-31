@@ -1,0 +1,411 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-31T17:55:25.351Z",
+        "line": 3,
+        "name": "Successful Login with valid credentials",
+        "description": "",
+        "id": "nopcommerce--login;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2118000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch Chrome Browser",
+            "match": {
+              "location": "myStepDefinitions.Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2289000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens URL \"http://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "myStepDefinitions.Steps.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username: \"admin@yourstore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "myStepDefinitions.Steps.user_enters_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Password: \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 22
+                }
+              ],
+              "location": "myStepDefinitions.Steps.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4933000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on login",
+            "match": {
+              "location": "myStepDefinitions.Steps.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3083000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Page titile should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard / nopCommerce administration\"",
+                  "offset": 22
+                }
+              ],
+              "location": "myStepDefinitions.Steps.page_titile_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4645000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on Logout link",
+            "match": {
+              "location": "myStepDefinitions.Steps.user_clock_on_logout_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 646000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close chrome browser",
+            "match": {
+              "location": "myStepDefinitions.Steps.close_chrome_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-31T17:55:43.497Z",
+        "line": 25,
+        "name": "Login Data Driven",
+        "description": "",
+        "id": "nopcommerce--login;login-data-driven;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1155000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User launch Chrome Browser",
+            "match": {
+              "location": "myStepDefinitions.Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1738000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User opens URL \"http://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "myStepDefinitions.Steps.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters username: \"admin@yourstore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "myStepDefinitions.Steps.user_enters_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters Password: \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 22
+                }
+              ],
+              "location": "myStepDefinitions.Steps.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4878000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on login",
+            "match": {
+              "location": "myStepDefinitions.Steps.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3091000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Page titile should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard / nopCommerce administration\"",
+                  "offset": 22
+                }
+              ],
+              "location": "myStepDefinitions.Steps.page_titile_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4094000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click on Logout link",
+            "match": {
+              "location": "myStepDefinitions.Steps.user_clock_on_logout_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 628000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "close chrome browser",
+            "match": {
+              "location": "myStepDefinitions.Steps.close_chrome_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-31T17:55:59.349Z",
+        "line": 26,
+        "name": "Login Data Driven",
+        "description": "",
+        "id": "nopcommerce--login;login-data-driven;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1169000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User launch Chrome Browser",
+            "match": {
+              "location": "myStepDefinitions.Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2434000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User opens URL \"http://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "myStepDefinitions.Steps.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters username: \"admin@yourstore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "myStepDefinitions.Steps.user_enters_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters Password: \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 22
+                }
+              ],
+              "location": "myStepDefinitions.Steps.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4614000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on login",
+            "match": {
+              "location": "myStepDefinitions.Steps.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3072000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Page titile should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard / nopCommerce administration\"",
+                  "offset": 22
+                }
+              ],
+              "location": "myStepDefinitions.Steps.page_titile_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4051000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click on Logout link",
+            "match": {
+              "location": "myStepDefinitions.Steps.user_clock_on_logout_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 656000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "close chrome browser",
+            "match": {
+              "location": "myStepDefinitions.Steps.close_chrome_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "NopCommerce  Login",
+    "description": "",
+    "id": "nopcommerce--login",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  }
+]

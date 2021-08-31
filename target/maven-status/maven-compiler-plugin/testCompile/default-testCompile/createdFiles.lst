@@ -1,0 +1,3 @@
+myPageObjects\LoginPage.class
+myStepDefinitions\Steps.class
+testRunner\TestRun.class
